@@ -33,5 +33,5 @@ func main() {
 		http.ServeFile(w, r, "main.html")
 	})
 
-	http.ListenAndServe(":80", nil)
+	http.ListenAndServe(":12340", nil)
 }
