@@ -1,6 +1,8 @@
 # Server-sent events for Go
 [![Build Status](https://travis-ci.org/JanBerktold/sse.svg)](https://travis-ci.org/JanBerktold/sse) [![GoDoc](https://godoc.org/github.com/JanBerktold/sse?status.svg)](https://godoc.org/github.com/JanBerktold/sse)
 
+2015.10.26 - this fork fixes a potential race condition in conn.go#WriteEvent that was NOT merged into Master from a pull request.
+
 This is a lightweight SEE library for Golang which is designed to play nicely along different packages and provide a convient usage. Compatible with every Go version since 1.1.
 
 ## Examples
